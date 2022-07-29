@@ -4,6 +4,8 @@
 
 
 
+/* header */
+
 .hero{
     background-image: url(./img/header_img.png);
     /* background-position: center; */
@@ -17,22 +19,7 @@
 }
 
 
-/* #app { height: 100% }
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-body {
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-} */
-
+/* slider */
 .swiper {
   width: 100%;
   height: 100%;
@@ -64,4 +51,16 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+
+
+
+/* welcome section */
+#welcome-bg1{
+  background-image: url(./img/bg-1.png);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

@@ -4,6 +4,7 @@ import { Header } from './components/Header';
 import { Joinus } from './components/Joinus';
 import { AboutUs } from './components/AboutUs';
 import { Pastors } from './components/Pastors';
+import { WelcomeSection } from './components/WelcomeSection';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Joinus />
       <AboutUs />
       <Pastors/>  
+      <WelcomeSection/>
     </div>
   );
 }
