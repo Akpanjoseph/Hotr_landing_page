@@ -6,6 +6,8 @@ import { AboutUs } from './components/AboutUs';
 import { Pastors } from './components/Pastors';
 import { WelcomeSection } from './components/WelcomeSection';
 import { Ministries } from './components/Ministries';
+import { Cith } from './components/Cith';
+import { Events } from './components/Events';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Pastors/>  
       <WelcomeSection/>
       <Ministries/>
+      <Cith/>
+      <Events/>
     </div>
   );
 }
