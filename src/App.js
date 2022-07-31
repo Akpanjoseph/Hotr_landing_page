@@ -8,6 +8,7 @@ import { WelcomeSection } from './components/WelcomeSection';
 import { Ministries } from './components/Ministries';
 import { Cith } from './components/Cith';
 import { Events } from './components/Events';
+import { Testmonies } from './components/Testmonies';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Ministries/>
       <Cith/>
       <Events/>
+      <Testmonies/>
     </div>
   );
 }
