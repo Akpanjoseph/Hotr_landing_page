@@ -9,6 +9,8 @@ import { Ministries } from './components/Ministries';
 import { Cith } from './components/Cith';
 import { Events } from './components/Events';
 import { Testmonies } from './components/Testmonies';
+import { BlogSection } from './components/BlogSection';
+import { Gallery } from './components/Gallery';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
       <Cith/>
       <Events/>
       <Testmonies/>
+      <BlogSection/>
+      <Gallery/>
     </div>
   );
 }
