@@ -39,7 +39,7 @@ export function Events() {
 
                 {/* program 1 */}
 
-                <div className='max-sm drop-shadow-lg bg-slate-100'>
+                <div className='max-sm drop-shadow-lg bg-slate-100 md:mt-10'>
                     {/* program image */}
                     <img src={program} className='rounded-t-lg' alt="" />
 

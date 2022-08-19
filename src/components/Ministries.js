@@ -38,7 +38,7 @@ export function Ministries() {
 
                 {/* minstry 1 */}
 
-                <div>
+                <div className='md:mt-10'>
                     <img src={minstryImg} className='rounded-t-3xl' alt="" />
                     <p className='bg-primary_background py-4 rounded-b-3xl text-center '>Children’s Ministry</p>
                 </div>

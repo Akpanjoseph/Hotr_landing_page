@@ -29,7 +29,7 @@ export function Gallery() {
             </div>
 
             {/* gallery images  */}
-           <div className='flex flex-row flex-wrap w-full mt-10 justify-center'>
+           <div className='flex flex-row flex-wrap w-full mt-20 justify-center '>
           
                 <img src={img1} alt=""   />
                 <img src={img1} alt=""  />

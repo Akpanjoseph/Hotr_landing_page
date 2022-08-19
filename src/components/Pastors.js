@@ -29,7 +29,7 @@ export function Pastors() {
                 {/* body */}
                 <div className=' container mx-auto flex flex-col justify-around items-center space-y-20 md:space-x-20 md:flex-row  '>
 
-                    <div className='mt-4'>
+                    <div className='md:mt-10'>
                         {/* pastor image */}
                         <div className='max-w-xs md:max-w-md'>
                             <img src={paul} alt="" />
