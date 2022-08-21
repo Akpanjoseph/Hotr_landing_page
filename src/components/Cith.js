@@ -18,7 +18,7 @@ export function Cith() {
                 <p ><span className='rounded-sm font-extrabold py-0 text-primary_background text-3xl mx-2'> _____</span> <span className=' font-extrabold py-0 text-primary_background text-3xl mx-2'> _____</span></p>
 
                 {/* section text */}
-                <div className='flex flex-col items-center justify-center text-white space-y-6 mt-5 md:mt-10 md:space-y-12'>
+                <div className='flex flex-col items-center justify-center text-white space-y-6 px-2 mt-5 md:px-0 md:mt-10 md:space-y-12'>
 
                     {/* text  */}
                     <p className=' text-center tracking-wide leading-loose text-lg md:max-sm md:w-1/2'>
@@ -33,10 +33,10 @@ export function Cith() {
 
 
                 {/* join us section */}
-                <div className='my-20'>
+                <div className='my-10 md:my-20'>
 
                     {/* join us text */}
-                    <p className='bg-primary_background  text-white rounded-full font-bold px-40 py-2 md:px-20 md:py-4'>
+                    <p className='bg-primary_background  text-white rounded-full font-bold px-20 py-2 md:px-20 md:py-4'>
                         <a href="#">See CITH Center Near You</a>
                     </p>
 
