@@ -12,13 +12,13 @@ export function WelcomeSection() {
                 <h5 className='text-primary_background font-bold text-2xl md:text-2xl'>Welcome</h5>
 
                 {/* section sub header */}
-                <h1 className='text-white font-extrabold text-3xl md:text-5xl md:mt-6'>You are Welcome Here!</h1>
+                <h1 className='text-white font-extrabold text-2xl md:text-5xl md:mt-6'>You are Welcome Here!</h1>
 
                 {/* underline */}
                 <p ><span className='rounded-sm font-extrabold py-0 text-primary_background text-3xl mx-2'> _____</span> <span className=' font-extrabold py-0 text-primary_background text-3xl mx-2'> _____</span></p>
 
                 {/* section text */}
-                <div className='flex flex-col items-center justify-center text-white space-y-6 mt-5 md:mt-10 md:space-y-12'>
+                <div className='flex flex-col items-center justify-center text-white px-2 space-y-4 mt-5 md:px-0 md:mt-10 md:space-y-12'>
 
                     {/* text  */}
                     <p className=' text-center tracking-wide leading-relaxed text-lg md:max-sm md:w-1/2'>
@@ -42,10 +42,10 @@ export function WelcomeSection() {
 
 
                     {/* join us section */}
-                <div className='my-20'>
+                <div className=' my-10 md:my-20'>
                     
                     {/* join us text */}
-                <p className='bg-primary_background  text-white rounded-full font-bold px-40 py-2 md:px-20 md:py-4'>
+                <p className='bg-primary_background  text-white rounded-full font-bold  px-20 py-2 md:px-20 md:py-4'>
                     <a href="#">W’ll like to meet you</a>
                 </p>
 
