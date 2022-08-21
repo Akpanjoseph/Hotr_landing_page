@@ -14,7 +14,7 @@ export function BlogSection() {
                 <p className='text-primary_background md:text-xl'>BLOG</p>
 
                 {/* sub header */}
-                <h3 className='font-bold text-4xl md:text-5xl '>
+                <h3 className='font-bold text-2xl md:text-5xl '>
                     Mesaage from our Blog
                 </h3>
 
@@ -27,7 +27,7 @@ export function BlogSection() {
             <div className='  container mx-auto  flex-col space-y-10 justify-center items-center  text-black font-bold my-20 md:flex-row md:space-x-20 md:flex'>
 
                 {/* post1 */}
-                <div className='shadow-lg max-w-xs md:max-w-lg text-justify mt-5  md:w-[30%]'>
+                <div className='shadow-lg max-w-lg text-justify mt-5 mx-2 md:mx-0 md:w-[30%]'>
                     <img src={blog_img} alt="" className='w-[100%]' />
 
                     <div className='mx-4'>
@@ -56,7 +56,7 @@ export function BlogSection() {
 
                 {/* post2 */}
 
-                <div className='shadow-lg max-w-xs md:max-w-lg text-justify mt-5  md:w-[30%]'>
+                <div className='shadow-lg  max-w-lg text-justify mt-5 mx-2 md:mx-0 md:w-[30%]'>
                     <img src={blog_img} alt="" className='w-[100%]' />
 
                     <div className='mx-4'>
@@ -85,7 +85,7 @@ export function BlogSection() {
 
 
                 {/* post3 */}
-                <div className='shadow-lg max-w-xs md:max-w-lg text-justify mt-5  md:w-[30%]'>
+                <div className='shadow-lg max-w-lg text-justify mt-5 mx-2 md:mx-0 md:w-[30%]'>
                     <img src={blog_img} alt="" className='w-[100%]' />
 
                     <div className='mx-4'>
