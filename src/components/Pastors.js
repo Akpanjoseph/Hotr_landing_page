@@ -17,7 +17,7 @@ export function Pastors() {
                     <p className='text-primary_background md:text-xl'>PASTORS</p>
 
                     {/* sub header */}
-                    <h3 className='font-bold text-4xl md:text-5xl '>
+                    <h3 className='font-bold text-2xl md:text-5xl '>
                         Meet Our Pastors
                     </h3>
 

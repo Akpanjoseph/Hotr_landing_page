@@ -25,7 +25,7 @@ export function Ministries() {
                 <p className='text-primary_background md:text-xl'>MINISTRIES</p>
 
                 {/* sub header */}
-                <h3 className='font-bold text-4xl md:text-5xl '>
+                <h3 className='font-bold text-2xl md:text-5xl '>
                     Our Ministries
                 </h3>
 

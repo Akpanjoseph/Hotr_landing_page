@@ -19,7 +19,7 @@ export function Gallery() {
                 <p className='text-primary_background md:text-xl'>GALLERY</p>
 
                 {/* sub header */}
-                <h3 className='font-bold text-4xl md:text-5xl '>
+                <h3 className='font-bold text-2xl md:text-5xl '>
                     Moments captured in Pictures
                 </h3>
 
@@ -31,7 +31,7 @@ export function Gallery() {
             {/* gallery images  */}
            <div className='flex flex-row flex-wrap w-full mt-20 justify-center '>
           
-                <img src={img1} alt=""   />
+                <img src={img1} alt="" className=''  />
                 <img src={img1} alt=""  />
                 <img src={img2} alt=""  />
                 <img src={img3} alt=""  />

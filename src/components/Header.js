@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../img/logo.png'
+import menu from '../img/menu-icon.png'
 import HeroSection from './HeroSection'
 
 export function Header() {
@@ -11,12 +12,13 @@ export function Header() {
             <nav className='container relative  mx-auto'>
 
                 {/* flex container  */}
-                <div className="flex items-center justify-between">
+                <div className="flex items-center  md:justify-between">
 
                     {/* logo */}
                     <div className="">
                         <img src={logo} alt="" />
                     </div>
+                   
 
                     {/*  links items  */}
                     <div className="hidden md:flex space-x-12 uppercase ">
@@ -27,6 +29,11 @@ export function Header() {
                         <a href="#" className="hover:text-darkGrayishBlue "> sermons</a>
                         <a href="#" className="hover:text-darkGrayishBlue "> join us</a>
                         <a href="#" className="text-lightRed "> stream live</a>
+                    </div>
+
+                     {/* menu */}
+                     <div className="md:hidden w-full flex justify-end mx-4">
+                        <img src={menu} alt="" width={'30px'} />
                     </div>
 
                     <div>
