@@ -212,7 +212,7 @@ export function Testmonies() {
 
                 {/* join us text */}
                 <p className='flex justify-center items-center '>
-                    <a href="#" className='bg-white   text-primary_background font-bold px-20 py-2 rounded-full md:px-20 md:py-4'>Share your Testimony</a>
+                    <a href="#" className='bg-white   text-primary_background font-bold px-10 py-2 rounded-full md:px-20 md:py-4 sm:px-20'>Share your Testimony</a>
                 </p>
 
             </div>
