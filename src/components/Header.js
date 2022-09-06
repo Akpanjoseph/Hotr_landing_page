@@ -1,40 +1,88 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import logo from '../img/logo.png'
-import menu from '../img/menu-icon.png'
+import menuIcon from '../img/menu-icon.png'
+import closeIcon from '../img/close.png'
 import HeroSection from './HeroSection'
-import   fb from '../img/facebook.png'
-import   twitter from '../img/twitter.png'
-import   yb from '../img/youtube.png'
-import   instargram from '../img/instargram.png'
-import   header_img from '../img/header_img.png'
+import fb from '../img/facebook.png'
+import twitter from '../img/twitter.png'
+import yb from '../img/youtube.png'
+import instargram from '../img/instargram.png'
+// import header_img from '../img/header_img.png'
 // import   message from '../img/message.png'
 
 export function Header() {
 
-// const [menu,setMenu] = useState('')
+    const [showMenu, setMenu] = useState(false)
+
+    let menu
+
+    if (showMenu) {
+
+        {/* mobile  links items  */ }
+        menu = <div className=" flex flex-col w-[80%] h-[100vh] fixed top-0  px-4 py-10 left-0 capitalize font-bold space-y-4 bg-white z-50 md:hidden">
+
+           <div className='flex justify-end mx-4'>
+                <img src={closeIcon} alt="" width={'20px'} onClick={()=> setMenu(!showMenu)} />
+           </div>
+
+           <div>
+           <a href="#" className="hover:text-darkGrayishBlue "> Home</a>
+           </div>
+            <hr />
+
+           <div>
+           <a href="#" className="hover:text-darkGrayishBlue "> Information center</a>
+           </div>
+            <hr />
+
+            <div>
+            <a href="#" className="hover:text-darkGrayishBlue "> store</a>
+            </div>
+            <hr />
+
+            <div>
+            <a href="#" className="hover:text-darkGrayishBlue "> give</a>
+            </div>
+            <hr />
+
+           <div>
+           <a href="#" className="hover:text-darkGrayishBlue "> sermons</a>
+           </div>
+            <hr />
+
+            <div>
+            <a href="#" className="hover:text-darkGrayishBlue "> join us</a>
+            </div>
+            <hr />
+
+           <div>
+           <a href="#" className="text-lightRed "> stream live</a>
+           </div>
+        </div>
+    }
     return (
         <>
             {/* nav container */}
-            <nav className='container relative  mx-auto'>
+            <nav className='container relative  mx-auto '>
 
                 <div className='flex justify-between px-4 py-4 shadow-lg md:hidden w-full '>
-                   
-                    <img src={fb} alt="" width={'20x'} />
-                    <img src={twitter} alt="" width={'20x'}  />
-                    <img src={yb} alt="" width={'20x'}  />
-                    <img src={instargram} alt="" width={'20x'}  />
 
-                    
+                    <img src={fb} alt="" width={'20x'} />
+                    <img src={twitter} alt="" width={'20x'} />
+                    <img src={yb} alt="" width={'20x'} />
+                    <img src={instargram} alt="" width={'20x'} />
+
+
                 </div>
 
                 {/* flex container  */}
-                <div className="flex items-center  md:justify-between my-4 md:my-0">
+                <div className=" flex items-center  md:justify-between my-4 md:my-0 bg-white ">
 
                     {/* logo */}
                     <div className="">
                         <img src={logo} alt="" />
                     </div>
-                   
+
 
                     {/*  links items  */}
                     <div className="hidden md:flex space-x-12 uppercase ">
@@ -47,24 +95,34 @@ export function Header() {
                         <a href="#" className="text-lightRed "> stream live</a>
                     </div>
 
-                     {/* menu */}
-                     <div className="md:hidden w-full flex justify-end mx-4">
-                        <img src={menu} alt="" width={'30px'} />
+
+
+                    {/* menu */}
+                    <div className="md:hidden w-full flex justify-end mx-4">
+                        <img src={menuIcon} alt="" width={'30px'} onClick={() => setMenu(!showMenu)} />
+
                     </div>
 
-                    <div>
 
-                    </div>
+                    {/* mobile menu */}
+
+                    {
+                        menu
+                    }
+
+
                 </div>
+
+
             </nav>
 
-                {/* desktop */}
-                <div className='hidden md:block'>
-                    
-                         <HeroSection  />
-                </div>
+            {/* desktop */}
+            <div className='hidden md:block'>
 
-         
+                <HeroSection />
+            </div>
+
+
 
             {/* status bar */}
             <section id='announcement' className='bg-primary_background md:mx-1 '>
@@ -84,7 +142,7 @@ export function Header() {
 
                         <div>
                             <p className='text-xs font-bold uppercase sm:text-sm'>friday</p>
-                            <h2  className='md:text-xl font-bold text-xs sm:text-md'>5:00pm</h2>
+                            <h2 className='md:text-xl font-bold text-xs sm:text-md'>5:00pm</h2>
                         </div>
                     </div>
 
@@ -100,7 +158,7 @@ export function Header() {
             </section>
 
 
-            
+
         </>
     )
 }

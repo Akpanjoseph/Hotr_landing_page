@@ -23,7 +23,7 @@ export function Cith() {
                     {/* text  */}
                     <p className=' text-center tracking-normal leading-loose text-lg md:max-sm md:w-1/2 md:tracking-wide md:leading-loose'>
                         The CITH system is the Church at the micro or cellular level
-                        where everybody can be somebody. It is where a strong sense of
+                        where everybody can be `somebody. It is where a strong sense of
                         belonging is developed. It is the first line of defense. Where you
                         are known by name and you know others by name. It is the family
                         cell system.
